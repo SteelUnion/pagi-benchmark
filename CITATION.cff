@@ -23,5 +23,6 @@ keywords:
   - autonomous agents
   - long-chain reasoning
   - agent evaluation
+doi: "10.5281/zenodo.24097580"
 repository-code: "https://github.com/SteelUnion/pagi-benchmark"
 url: "https://github.com/SteelUnion/pagi-benchmark"

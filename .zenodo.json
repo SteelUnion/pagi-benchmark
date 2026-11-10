@@ -17,6 +17,12 @@
       "name": "Xu"
     }
   ],
-  "related_identifiers": [],
+  "related_identifiers": [
+    {
+      "relation": "isIdenticalTo",
+      "identifier": "https://github.com/SteelUnion/pagi-benchmark",
+      "resource_type": "software"
+    }
+  ],
   "notes": "Code is MIT licensed. Measurement data under data/ is CC-BY-4.0."
 }

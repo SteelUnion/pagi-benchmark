@@ -1,5 +1,7 @@
 # 准 AGI 基准测试（Quasi-AGI Benchmark）
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24097580.svg)](https://doi.org/10.5281/zenodo.24097580)
+
 > **用「工具自主认知」测 AGI 准入门槛的开源基准。**
 >
 > 本仓库包含出卷器、考场门控插件、论文源码与全部实测数据。

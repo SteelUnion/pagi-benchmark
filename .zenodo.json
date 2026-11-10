@@ -22,6 +22,11 @@
       "relation": "isIdenticalTo",
       "identifier": "https://github.com/SteelUnion/pagi-benchmark",
       "resource_type": "software"
+    },
+    {
+      "relation": "isVersionOf",
+      "identifier": "10.5281/zenodo.24097579",
+      "resource_type": "software"
     }
   ],
   "notes": "Code is MIT licensed. Measurement data under data/ is CC-BY-4.0."

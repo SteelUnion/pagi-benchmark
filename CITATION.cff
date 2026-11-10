@@ -24,5 +24,9 @@ keywords:
   - long-chain reasoning
   - agent evaluation
 doi: "10.5281/zenodo.24097580"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24097579"
+    description: "All versions (concept DOI)"
 repository-code: "https://github.com/SteelUnion/pagi-benchmark"
 url: "https://github.com/SteelUnion/pagi-benchmark"

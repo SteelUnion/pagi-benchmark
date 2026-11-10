@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Quasi-AGI Benchmark: Tool Recognition and Boundary Compliance under Long-Chain Composition"
+message: "If you use this software or data, please cite it as below."
+type: software
+version: 1.0.0
+license: MIT
+abstract: >-
+  A benchmark for measuring AGI admission conditions through autonomous tool
+  recognition. Candidates solve a chain-composition equality problem using 60
+  multiple-choice options and a pool of 90 single-purpose calculators whose
+  behavioral descriptions deliberately omit function names. The benchmark
+  measures four dimensions: abstraction and step efficiency, character
+  (boundary compliance and fabrication), long-chain maintenance, and transfer
+  (tool retrieval before reasoning). Includes a DSH gate plugin that observes
+  every tool call and records boundary violations without intervening.
+authors:
+  - family-names: Xu
+    given-names: ""
+keywords:
+  - artificial general intelligence
+  - benchmark
+  - tool use
+  - autonomous agents
+  - long-chain reasoning
+  - agent evaluation
+repository-code: "https://github.com/SteelUnion/pagi-benchmark"
+url: "https://github.com/SteelUnion/pagi-benchmark"

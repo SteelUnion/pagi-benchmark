@@ -1,0 +1,44 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.venv-torch/
+
+# ── Node ──
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+
+# ── 运行时产物（不应进仓库）──
+dsh-env/logs/
+dsh-env/sessions/
+dsh-env/_sealed/
+dsh-env/_scores/
+dsh-env/exams/
+generator_v2/packs/
+generator_v2/figs/
+generator_v2/glyphlib/
+
+# ── 临时文件 ──
+*.tmp
+*.bak
+*.bak_*
+*.log
+_*.py
+!bench/generator_v2/*.py
+
+# ── 系统 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── 编辑器 ──
+.vscode/
+.idea/
+*.swp
+
+# ── 实测数据（在私有仓库 pagi-benchmark-data）──
+data/

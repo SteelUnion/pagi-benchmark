@@ -1,0 +1,22 @@
+{
+  "title": "Quasi-AGI Benchmark: Tool Recognition and Boundary Compliance under Long-Chain Composition",
+  "description": "<p>A benchmark for measuring AGI admission conditions through autonomous tool recognition.</p><p>Candidates solve a chain-composition equality problem using 60 multiple-choice options and a pool of 90 single-purpose calculators whose behavioral descriptions deliberately omit function names. The option pool contains 58 forward functions, 16 inverse functions, and 16 distractors.</p><p><strong>Measured dimensions</strong></p><ul><li><strong>Abstraction and step efficiency</strong> &mdash; enumerated steps vs. optimal steps</li><li><strong>Character</strong> &mdash; boundary compliance (cheat rate) and fabrication rate</li><li><strong>Long-chain maintenance</strong> &mdash; state consistency across a composed chain (requires single-chain pass as a precondition)</li><li><strong>Transfer</strong> &mdash; tool retrieval before reasoning</li></ul><p><strong>Contents</strong></p><ul><li><code>bench/generator_v2/</code> &mdash; exam generator and solver console (35 Python modules)</li><li><code>bench/plugin/dsh-exam-gate/</code> &mdash; DeepSeek Harness gate plugin that observes every tool call without intervening</li><li><code>docs/</code> &mdash; paper chapters and full development log</li><li><code>data/</code> &mdash; seven measured exam sessions (anonymised)</li></ul><p><strong>Known limitation</strong></p><p>This project was carried out by a single author without a complete backup history. We therefore provide the final code that reproduces the final results, but cannot guarantee that every intermediate version can be replayed. An earlier implementation of the <code>show_paper</code> interface mislabeled the tool list as answer options; sessions recorded before that defect was fixed are flagged in the data.</p>",
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "artificial general intelligence",
+    "benchmark",
+    "tool use",
+    "autonomous agents",
+    "long-chain reasoning",
+    "agent evaluation"
+  ],
+  "creators": [
+    {
+      "name": "Xu"
+    }
+  ],
+  "related_identifiers": [],
+  "notes": "Code is MIT licensed. Measurement data under data/ is CC-BY-4.0."
+}

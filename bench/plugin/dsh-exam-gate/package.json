@@ -1,0 +1,20 @@
+{
+  "name": "@sroada/dsh-exam-gate",
+  "version": "0.1.0",
+  "description": "Exam-room gate for DeepSeek Harness: only tools and paths listed in the generated exam's features may be used; everything else is denied.",
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "exam", "gate", "benchmark"],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./package.json": "./package.json"
+  },
+  "files": ["lib/index.js", "README.md", "LICENSE"],
+  "dependencies": {},
+  "peerDependencies": {
+    "@deepseek-ai/dsh": ">=0.2.0-rc.2",
+    "@deepseek-ai/dsh-tools": ">=0.2.0-rc.2",
+    "@deepseek-ai/cordis": ">=4.0.4"
+  },
+  "license": "MIT"
+}

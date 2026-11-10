@@ -1,0 +1,77 @@
+# 数据许可 / Data License
+
+**本仓库 `data/` 目录下的全部实测数据采用
+Creative Commons Attribution 4.0 International (CC-BY-4.0) 许可。**
+
+---
+
+## 你可以
+
+```
+✅ 复制、分发
+✅ 修改、改编
+✅ 商业使用
+```
+
+## 条件
+
+```
+📌 署名 —— 必须给出适当署名、提供许可链接、
+        并说明是否作出修改
+```
+
+## 署名写法
+
+**推荐（中文）：**
+
+> 数据来源：Xu，《准 AGI 基准测试》实测数据，CC-BY-4.0，
+> https://github.com/SteelUnion/pagi-benchmark
+
+**推荐（英文）：**
+
+> Data from: Xu, *Quasi-AGI Benchmark* measurement data,
+> CC-BY-4.0, https://github.com/SteelUnion/pagi-benchmark
+
+---
+
+## 范围
+
+**包含：**
+
+```
+data/data-v1.0-sessions.zip    全量会话日志
+data/data-v1.0-cheat.zip       门控判定记录
+data/data-v1.0-exams.zip       卷子文本
+data/data-v1.0-packs.zip       封包
+```
+
+**不包含：**
+
+```
+bench/     代码，采用 MIT（见 LICENSE）
+docs/      论文，采用 CC-BY-4.0（与数据一致）
+```
+
+---
+
+## 关于脱敏
+
+**数据在发布前做过脱敏：**
+
+```
+本机绝对路径    →  <BENCH> / <HOME> / <DSH>
+```
+
+**已扫描确认不含：人名、用户名、API key。**
+
+**⚠️ 若发现遗漏，请通过 GitHub Issues 告知，会尽快处理。**
+
+---
+
+## 无担保
+
+**数据按「现状」提供，不附带任何明示或暗示的担保。**
+
+---
+
+**许可全文：** <https://creativecommons.org/licenses/by/4.0/legalcode>
